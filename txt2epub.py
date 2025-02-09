@@ -136,7 +136,7 @@ class EpubGenerator:
             <meta name="dtb:totalPageCount" content="0"/>
             <meta name="dtb:maxPageNumber" content="0"/>
           </head>
-          <docTitle><text>血族少女爱上我</text></docTitle>
+          <docTitle><text>{self.metadata['title']}</text></docTitle>
           <navMap>
         ''').format(self=self)
         
